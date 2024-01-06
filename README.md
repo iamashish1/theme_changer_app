@@ -1,16 +1,15 @@
-# theme_changer_app
+# Theme Changer App
 
-A new Flutter project.
+Welcome to the Theme Changer App, a Flutter project showcasing dynamic theme switching in a mobile application.
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
+The Theme Changer App is a Flutter-based mobile application that focuses on demonstrating the implementation of dynamic theme switching. Themes play a vital role in enhancing the user experience, and this project serves as a valuable resource for developers aiming to integrate such functionality seamlessly into their Flutter applications. Users can effortlessly switch between light and dark themes, providing them with a personalized and visually appealing experience.
 
-A few resources to get you started if this is your first Flutter project:
+## State Management and Theme Persistence
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+To enhance the robustness and user experience of the Theme Changer App, the following features have been added:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **State Management with Flutter Bloc:** Flutter Bloc has been incorporated to manage the state of the application efficiently. This ensures a clean and maintainable codebase, making it easier to handle theme changes and updates.
+
+- **Theme Persistence with Shared Preferences:** Shared Preferences is utilized to persistently store the selected theme. This means that users' theme preferences will be saved even if they close and reopen the app, offering a consistent and personalized experience.
